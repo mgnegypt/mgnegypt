@@ -1,148 +1,181 @@
-<!-- ========================================================= -->
-<!--               M A H M O U D   //   N E O N   V 2          -->
-<!-- ========================================================= -->
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <img src="assets/hero-light.svg" alt="mg | MGN Studio: Arabic music, bots and apps" width="100%">
+</picture>
+
+<br />
+
+[![YouTube](https://img.shields.io/badge/YouTube-MGN%20Studio-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](YOUR_YOUTUBE_CHANNEL_URL)
+[![Telegram](https://img.shields.io/badge/Telegram-Chat-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/YOUR_TELEGRAM_USERNAME)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/mgnegypt?tab=repositories&language=python)
+[![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)](https://github.com/mgnegypt?tab=repositories&language=kotlin)
+
+<h3>
+  <sub>موسيقى عربي · بوتات · تطبيقات · ذكاء اصطناعي</sub>
+</h3>
+
+</div>
+
+<img src="assets/divider.svg" width="100%" alt="" />
+
+<h2 align="center">Hello, I'm mg</h2>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=32&color=00E1FF&center=true&vCenter=true&width=850&lines=Mahmoud+%7C+AI+Engineer+%26+Creative+Technologist;Systems+Architect+%7C+Fullstack+Developer;VFX+Artist+%7C+Product+Designer;Designing+Intelligent+%26+Beautiful+Systems" />
+  Independent creator behind <b>MGN Studio</b>, an Arabic music channel on YouTube.<br />
+  I also write code: Telegram bots in Python, Android apps in Kotlin, and small web tools.<br />
+  Everything I build is aimed at Arabic-speaking audiences first.
 </p>
+
+```python
+class MG:
+    handle    = "mgnegypt"
+    studio    = "MGN Studio"                     # Arabic music on YouTube
+    music     = ["mahraganat", "emotional ballads", "trap-flavoured beats"]
+    builds    = ["Telegram bots", "Android apps", "web tools"]
+    explores  = ["AI music", "AI video & visuals", "local LLMs on Android"]
+    audience  = "Arabic-speaking first"
+```
+
+<img src="assets/divider.svg" width="100%" alt="" />
+
+<h2 align="center">What I make</h2>
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="https://api.iconify.design/lucide/music-4.svg?color=%238B5CF6&width=30" width="30" height="30" alt="" /><br />
+      <b>Arabic music</b><br />
+      Mahraganat and emotional ballads released on <b>MGN Studio</b>. AI-assisted production with Suno, plus song titles, descriptions and growth strategy for the channel.
+    </td>
+    <td width="50%" valign="top">
+      <img src="https://api.iconify.design/lucide/bot.svg?color=%238B5CF6&width=30" width="30" height="30" alt="" /><br />
+      <b>Telegram bots</b><br />
+      Python bots built on <code>kurigram</code>, AsyncIO and PostgreSQL, deployed with systemd. Game bots, lookup bots and image-rendering bots using PIL.
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <img src="https://api.iconify.design/lucide/smartphone.svg?color=%238B5CF6&width=30" width="30" height="30" alt="" /><br />
+      <b>Android apps</b><br />
+      Open-source Kotlin apps with Jetpack Compose and Material 3, built and checked with GitHub Actions CI.
+    </td>
+    <td valign="top">
+      <img src="https://api.iconify.design/lucide/sparkles.svg?color=%238B5CF6&width=30" width="30" height="30" alt="" /><br />
+      <b>AI visuals &amp; local models</b><br />
+      Animated visuals for products and music players with Google Flow and Higgsfield, and local GGUF model experiments on Android.
+    </td>
+  </tr>
+</table>
+
+<img src="assets/divider.svg" width="100%" alt="" />
+
+<h2 align="center">Featured projects</h2>
+
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <img src="https://api.iconify.design/lucide/phone-incoming.svg?color=%238B5CF6&width=26" width="26" height="26" alt="" /><br />
+      <b><a href="https://github.com/mgnegypt/fake-call">fake-call</a></b><br />
+      Simulate incoming calls through your real Phone app using the Android Telecom Framework. Material 3 with Monet theming.<br /><br />
+      <a href="https://github.com/mgnegypt/fake-call/stargazers"><img src="https://img.shields.io/github/stars/mgnegypt/fake-call?style=flat-square&color=8B5CF6" alt="fake-call stars" /></a>
+      <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="Kotlin" />
+    </td>
+    <td width="33%" valign="top">
+      <img src="https://api.iconify.design/lucide/layout-dashboard.svg?color=%238B5CF6&width=26" width="26" height="26" alt="" /><br />
+      <b><a href="https://github.com/mgnegypt/web-elpaz">web-elpaz</a></b><br />
+      A website with light and dark themes plus an owner and admin dashboard, running on an Express and SQLite backend.<br /><br />
+      <a href="https://mgneg.online"><img src="https://img.shields.io/badge/Live-mgneg.online-8B5CF6?style=flat-square" alt="Live site" /></a>
+      <img src="https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
+    </td>
+    <td width="33%" valign="top">
+      <img src="https://api.iconify.design/lucide/audio-lines.svg?color=%238B5CF6&width=26" width="26" height="26" alt="" /><br />
+      <b><a href="YOUR_YOUTUBE_CHANNEL_URL">MGN Studio</a></b><br />
+      My Arabic music channel. New releases, visuals and behind-the-scenes of the AI-assisted workflow.<br /><br />
+      <img src="https://img.shields.io/badge/YouTube-Music-FF0000?style=flat-square&logo=youtube&logoColor=white" alt="YouTube" />
+    </td>
+  </tr>
+</table>
+
+<img src="assets/divider.svg" width="100%" alt="" />
+
+<h2 align="center">Toolbox</h2>
+
+<div align="center">
+<table>
+  <tr>
+    <td align="center"><img src="https://api.iconify.design/simple-icons/python.svg?color=%233776AB&width=40" width="40" height="40" alt="Python" /><br /><sub>Python</sub></td>
+    <td align="center"><img src="https://api.iconify.design/simple-icons/kotlin.svg?color=%237F52FF&width=40" width="40" height="40" alt="Kotlin" /><br /><sub>Kotlin</sub></td>
+    <td align="center"><img src="https://api.iconify.design/simple-icons/jetpackcompose.svg?color=%234285F4&width=40" width="40" height="40" alt="Jetpack Compose" /><br /><sub>Compose</sub></td>
+    <td align="center"><img src="https://api.iconify.design/simple-icons/android.svg?color=%233DDC84&width=40" width="40" height="40" alt="Android" /><br /><sub>Android</sub></td>
+    <td align="center"><img src="https://api.iconify.design/simple-icons/telegram.svg?color=%2326A5E4&width=40" width="40" height="40" alt="Telegram" /><br /><sub>Telegram</sub></td>
+    <td align="center"><img src="https://api.iconify.design/simple-icons/postgresql.svg?color=%234169E1&width=40" width="40" height="40" alt="PostgreSQL" /><br /><sub>PostgreSQL</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://api.iconify.design/simple-icons/sqlite.svg?color=%230F80CC&width=40" width="40" height="40" alt="SQLite" /><br /><sub>SQLite</sub></td>
+    <td align="center"><img src="https://api.iconify.design/simple-icons/nodedotjs.svg?color=%235FA04E&width=40" width="40" height="40" alt="Node.js" /><br /><sub>Node.js</sub></td>
+    <td align="center"><img src="https://api.iconify.design/simple-icons/githubactions.svg?color=%232088FF&width=40" width="40" height="40" alt="GitHub Actions" /><br /><sub>Actions</sub></td>
+    <td align="center"><img src="https://api.iconify.design/simple-icons/ubuntu.svg?color=%23E95420&width=40" width="40" height="40" alt="Ubuntu" /><br /><sub>Ubuntu</sub></td>
+    <td align="center"><img src="https://api.iconify.design/simple-icons/git.svg?color=%23F05032&width=40" width="40" height="40" alt="Git" /><br /><sub>Git</sub></td>
+    <td align="center"><img src="https://api.iconify.design/simple-icons/youtube.svg?color=%23FF0000&width=40" width="40" height="40" alt="YouTube" /><br /><sub>YouTube</sub></td>
+  </tr>
+</table>
+
+<br />
+
+![Suno](https://img.shields.io/badge/Suno-AI%20music-8B5CF6?style=flat-square)
+![Google Flow](https://img.shields.io/badge/Google%20Flow-AI%20video-4285F4?style=flat-square)
+![Higgsfield](https://img.shields.io/badge/Higgsfield-AI%20visuals-FF2DAA?style=flat-square)
+![PocketPal](https://img.shields.io/badge/PocketPal-local%20LLMs-00B8E6?style=flat-square)
+![CapCut](https://img.shields.io/badge/CapCut-editing-111111?style=flat-square)
+</div>
+
+<img src="assets/divider.svg" width="100%" alt="" />
+
+<h2 align="center">GitHub activity</h2>
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="profile/stats-dark.svg">
+  <img src="profile/stats-light.svg" alt="GitHub stats" height="170" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="profile/top-langs-dark.svg">
+  <img src="profile/top-langs-light.svg" alt="Top languages" height="170" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="profile/streak-dark.svg">
+  <img src="profile/streak-light.svg" alt="Contribution streak" height="170" />
+</picture>
+
+<br />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mgnegypt/mgnegypt/output/github-snake-dark.svg">
+  <img src="https://raw.githubusercontent.com/mgnegypt/mgnegypt/output/github-snake.svg" alt="Contribution snake" width="100%" />
+</picture>
+
+</div>
+
+<img src="assets/divider.svg" width="100%" alt="" />
+
+<h2 align="center">Let's talk</h2>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/AI%20Engineer-00d9ff?style=for-the-badge&logo=openai&logoColor=white">
-  <img src="https://img.shields.io/badge/Systems%20Architect-7b2ff7?style=for-the-badge&logo=archlinux&logoColor=white">
-  <img src="https://img.shields.io/badge/Fullstack%20Developer-ff0080?style=for-the-badge&logo=nextdotjs&logoColor=white">
-  <img src="https://img.shields.io/badge/VFX%20%2F%20CGI%20Artist-e100ff?style=for-the-badge&logo=adobeaftereffects&logoColor=white">
+  Collaborations, bots, apps or music: reach out on Telegram or YouTube.
 </p>
 
----
+<div align="center">
 
-# 🌌 Vision  
-**To architect AI-native ecosystems**—systems that are:  
-**intelligent**, **self-optimizing**, **emotionally designed**, and crafted with a cinematic sense of detail.
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](YOUR_YOUTUBE_CHANNEL_URL)
+[![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/YOUR_TELEGRAM_USERNAME)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mgnegypt)
 
----
+<br />
 
-# 🧬 Who Am I?  
-I’m **Mahmoud**, a multi-disciplinary engineer and creative director blending:
+<sub><b>Build tools. Make music. Ship it.</b></sub>
 
-- **AI Engineering** (Agents, RAG, Automations, LLM Ops)  
-- **Systems & SaaS Architecture**  
-- **Product Strategy & UX Engineering**  
-- **VFX, CGI & Motion Art Pipelines**  
-- **Startup Thinking × Systems Thinking**
-
-I build products and experiences where **engineering logic**, **creative direction**, and **systemic thinking** form one ecosystem.
-
----
-
-# 🚀 What I Do Best  
-- Architect **AI automation engines** & agentic systems  
-- Build **SaaS platforms** designed for real-world scale  
-- Design **modular system architectures** that survive growth  
-- Engineer **LLM agents** for real operations  
-- Direct **visual & motion identities** for digital products  
-- Build **data-driven UX systems** that evolve over time  
-- Create **VFX/CGI pipelines** with technical automation
-
----
-
-# 🎥 Featured Work (Cinematic Mini-Showcase)
-
-<p align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <img src="https://via.placeholder.com/320x180/0a0a0a/00e1ff?text=AI+Automation+Engine" width="320"/><br/>
-        <strong>AI Automation Engine</strong><br/>
-        Distributed agent-based task orchestrator.
-      </td>
-      <td align="center">
-        <img src="https://via.placeholder.com/320x180/0a0a0a/ff00d4?text=SaaS+Platform" width="320"/><br/>
-        <strong>Creative SaaS Builder</strong><br/>
-        Scalable platform for automated content systems.
-      </td>
-    </tr>
-    <tr>
-      <td align="center">
-        <img src="https://via.placeholder.com/320x180/0a0a0a/7b2ff7?text=Realtime+Dashboard" width="320"/><br/>
-        <strong>Realtime Analytics Dashboard</strong><br/>
-        Reactive, data-driven, high-performance UI.
-      </td>
-      <td align="center">
-        <img src="https://via.placeholder.com/320x180/0a0a0a/e100ff?text=CGI+Pipeline" width="320"/><br/>
-        <strong>CGI/VFX Automation Pipeline</strong><br/>
-        Automated rendering, compositing & asset flow.
-      </td>
-    </tr>
-  </table>
-</p>
-
----
-
-# 🧠 Philosophy  
-> **Design the system first, then the product.**  
-> **Let AI handle the operations — you own the vision.**  
-> **Build what lasts, not what trends.**  
-> **Make technology cinematic, human, and scalable.**
-
----
-
-# 🛠️ Tech Stack (2025)
-
-### **Engineering**
-`Node.js` · `Python` · `FastAPI` · `Express`  
-`PostgreSQL` · `MongoDB` · `Redis` · `gRPC`
-
-### **AI & ML**
-`LLMs` · `RAG` · `Agents`  
-`LangChain` · `LLM Orchestration`  
-`Vector Databases` · `Embedding Systems`
-
-### **Frontend**
-`React` · `Next.js` · `TailwindCSS` · `Framer Motion`
-
-### **DevOps & Infra**
-`Docker` · `Linux` · `CI/CD`  
-`Vercel` · `Cloudflare` · `NGINX`
-
-### **Creative & Visual**
-`After Effects` · `Blender` · `Houdini`  
-`Photoshop` · `Figma` · `DaVinci Resolve`
-
----
-
-# 🎨 Skill Icons  
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,nodejs,python,react,nextjs,tailwind,git,docker,redis,postgres,mongodb,linux" />
-</p>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=ae,pr,ps,blender,figma" />
-</p>
-
----
-
-# 📊 GitHub Stats  
-<p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
-
-<p align="center">
-  <img height="180" src="https://streak-stats.demolab.com?user=YOUR_USERNAME&theme=tokyonight&hide_border=true" />
-</p>
-
----
-
-# 💬 Contact  
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=22&color=00E1FF&center=true&vCenter=true&width=600&lines=Let’s+Build+Something+Intelligent.;Let’s+Build+Something+Beautiful.;Let’s+Build+Something+Massive." />
-</p>
-
-<p align="center">
-  <strong>Email:</strong> your-email@example.com  
-  <br/>
-  <strong>GitHub:</strong> github.com/YOUR_USERNAME
-</p>
-
----
-
-<h3 align="center">“Build intelligent systems. Design cinematic experiences. Deliver at scale.”</h3>
+</div>
